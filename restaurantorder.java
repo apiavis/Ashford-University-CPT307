@@ -39,14 +39,14 @@ public class restaurantorder {
         //removes an element from the queue and returns null if empty
         System.out.println(restaurantOrder.poll() + " has been delivered to the table.");
 
-         //a better method for inserting an element into the queue when it may be capacity-restricted
+        //a better method for inserting an element into the queue when it may be capacity-restricted
         restaurantOrder.offer("Coffee");
         restaurantOrder.offer("Tiramisu");
 
         System.out.println("The updated order for the table is: " + restaurantOrder);
 		
         //peek returns the element at the head node or “null” if empty
-         System.out.println("The next item that needs to be delivered is the: " + restaurantOrder.peek());
+        System.out.println("The next item that needs to be delivered is the: " + restaurantOrder.peek());
 
     }
     
